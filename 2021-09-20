@@ -1,0 +1,22 @@
+(base) WHL@malab:[/storage/WHL]conda install bowtie2
+Collecting package metadata (current_repodata.json): done
+Solving environment: failed with initial frozen solve. Retrying with flexible solve.
+Solving environment: failed with repodata from current_repodata.json, will retry with next repodata source.
+Collecting package metadata (repodata.json): done
+Solving environment: failed with initial frozen solve. Retrying with flexible solve.
+Solving environment: / 
+Found conflicts! Looking for incompatible packages.
+This can take several minutes.  Press CTRL-C to abort.                       failed                                                                           
+
+UnsatisfiableError: The following specifications were found to be incompatible with each other:
+
+Output in format: Requested package -> Available versionsThe following specifications were found to be incompatible with your system:
+
+  - feature:/linux-64::__glibc==2.17=0
+  - feature:|@/linux-64::__glibc==2.17=0
+  - bowtie2 -> libgcc-ng[version='>=9.3.0'] -> __glibc[version='>=2.17']
+
+Your installed version is: 2.17
+
+
+(base) WHL@malab:[/storage/WHL]
